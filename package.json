@@ -1,0 +1,31 @@
+{
+  "name": "bankmgr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch": "chokidar 'lib/**/*.js' 'test/**/*js' -c 'npm test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmao1/BankMGR.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmao1/BankMGR/issues"
+  },
+  "homepage": "https://github.com/tmao1/BankMGR#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chokidar-cli": "^1.2.0",
+    "mocha": "^2.5.3"
+  },
+  "dependencies": {
+    "uuid": "^2.0.2"
+  }
+}
