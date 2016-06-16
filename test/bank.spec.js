@@ -10,7 +10,7 @@ describe('Bank', function() {
     it('should create a new bank', function() {
       const b1 = new Bank('Tony & John Bank');
       expect(b1).to.be.instanceof(Bank);
-      //expect(b1.name).to.eqaul('Tony & John Bank');
+      expect(b1.name).to.equal('Tony & John Bank');
     });
   });
 
