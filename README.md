@@ -4,7 +4,7 @@ This JavaScript project is to implement a simple app for bank management based o
 
 ## first-time workstation setup
 
-The installation of software packages will be added when needed.
+The installation of software packages such as Node, Mocha, and Chai will be added when needed.
 
 ## Testing
 
