@@ -11,15 +11,17 @@ describe('Bank', function() {
       const b1 = new Bank('Tony & John Bank');
       expect(b1).to.be.instanceof(Bank);
       expect(b1.name).to.equal('Tony & John Bank');
+      expect(b1.accounts).to.be.length(0);
     });
   });
 
   describe('#addAccounts', function() {
     it('should add an account to the bank', function() {
       const b2 = new Bank('Tony & John Bank');
-      const a1 = new Account('a1');
+      const a1 = new Account('Joe');
       b2.addAccount(a1);
-      expect(b2.accounts[0].name).to.equal('a1');
+      expect(b2.accounts[0].name).to.equal('Joe');
+      expect(b2.accounts[0].balance).to.equal(0);
     });
   });
 
