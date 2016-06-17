@@ -25,7 +25,7 @@ describe('Account', function() {
 
   describe('#withdraw', function(){
     it('should return balance after withdraw', function() {
-      let newAccount3 = new Account('Tony');
+      const newAccount3 = new Account('Tony');
       newAccount3.deposit(400);
       expect(newAccount3.withdraw(300)).to.equal(100);
       expect(newAccount3.balance).to.equal(100);

@@ -1,7 +1,6 @@
 {
   "name": "bankmgr",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -14,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/tmao1/BankMGR.git"
   },
-  "author": "",
+  "author": "Tony Mao",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/tmao1/BankMGR/issues"
@@ -32,5 +31,6 @@
   },
   "dependencies": {
     "uuid": "^2.0.2"
-  }
+  },
+  "description": "This JavaScript project is to implement a simple app for bank management based on the information provided/learnt in the classroom."
 }
